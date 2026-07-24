@@ -24,6 +24,14 @@
 
             //Console.WriteLine(shelfCopies[1, 0]);
             #endregion
+
+            #region Question 3
+            //static void PrintWelcomeMessage()
+            //{
+            //    Console.WriteLine("Welcome to the Library!");
+            //}
+            //PrintWelcomeMessage();
+            #endregion
         }
     }
 }
