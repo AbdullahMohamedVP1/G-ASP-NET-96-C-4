@@ -1,4 +1,5 @@
 ﻿using System.Drawing;
+using System.Reflection;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Assignment3
@@ -120,7 +121,7 @@ namespace Assignment3
             #endregion
 
             #region Question 9
-            
+
             // static bool TryGetPrice(string title, out double price)
             // {
             //     if (title == "Clean Code")
@@ -128,13 +129,13 @@ namespace Assignment3
             //         price = 25.5;
             //         return true;
             //     }
-            
+
             //     price = 0;
             //     return false;
             // }
-            
+
             // double price;
-            
+
             // if (TryGetPrice("Clean Code", out price))
             // {
             //     Console.WriteLine("Price: " + price);
@@ -144,6 +145,19 @@ namespace Assignment3
             //     Console.WriteLine("Book not found");
             // }
 
+            #endregion
+
+            #region Question 10
+            //Write a method PrintBookInfo(string title, int pages = 300) where pages is optional.Call
+            //it once with only a title, and once passing both a title and pages.
+
+            //static void PrintBookInfo(string title, int pages = 300)
+            //{
+            //    Console.WriteLine("Title: " + title);
+            //    Console.WriteLine("Pages: " + pages);
+            //}
+
+            //PrintBookInfo("Clean Code");
             #endregion
         }
     }
