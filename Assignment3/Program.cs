@@ -65,6 +65,7 @@
             //Console.WriteLine(pages);
 
             #endregion
+
             #region Question 6
 
             // Write a method ApplyDiscount(double[] prices) that subtracts 5 from prices[0].
@@ -81,6 +82,21 @@
             //ApplyDiscount(prices);
 
             //Console.WriteLine(prices[0]);
+
+            #endregion
+
+            #region Question 7
+
+            //static void AddBonusPagesByRef(ref int pages)
+            //{
+            //    pages += 50;
+            //}
+
+            //int pages = 400;
+
+            //AddBonusPagesByRef(ref pages);
+
+            //Console.WriteLine(pages);
 
             #endregion
         }
