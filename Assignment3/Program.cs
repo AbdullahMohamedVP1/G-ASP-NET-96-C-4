@@ -172,6 +172,21 @@ namespace Assignment3
             //PrintBookInfo(pages: 450, title: "Clean Code");
 
             #endregion
+
+            #region Question 12
+            //Write a method PrintAllTitles(params string[] titles) that prints each title on its own line.
+            //Call it with three book titles
+
+            //static void PrintAllTitles(params string[] titles)
+            //{
+            //    foreach (string title in titles)
+            //    {
+            //        Console.WriteLine(title);
+            //    }
+            //}
+
+            //PrintAllTitles("Clean Code", "The Pragmatic Programmer", "C# in Depth");
+            #endregion
         }
     }
 }
