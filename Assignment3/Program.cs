@@ -65,6 +65,24 @@
             //Console.WriteLine(pages);
 
             #endregion
+            #region Question 6
+
+            // Write a method ApplyDiscount(double[] prices) that subtracts 5 from prices[0].
+            // Call it with double[] prices = {25.5,40.0}; and print prices[0] afterward.
+            // What do you expect to see, and why?
+
+            //static void ApplyDiscount(double[] prices)
+            //{
+            //    prices[0] -= 5;
+            //}
+
+            //double[] prices = { 25.5, 40.0 };
+
+            //ApplyDiscount(prices);
+
+            //Console.WriteLine(prices[0]);
+
+            #endregion
         }
     }
 }
