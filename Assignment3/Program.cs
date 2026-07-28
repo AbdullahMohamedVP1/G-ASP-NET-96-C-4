@@ -67,6 +67,8 @@ namespace Assignment3
             //AddBonusPages(pages);
 
             //Console.WriteLine(pages);
+            // Output: 400
+            // Because int is a value type and is passed by value and also The original variable remains unchanged
 
             #endregion
 
@@ -86,6 +88,9 @@ namespace Assignment3
             //ApplyDiscount(prices);
 
             //Console.WriteLine(prices[0]);
+
+            // Output: 20.5
+            // Because arrays are reference types so the change is reflected outside the method
 
             #endregion
 
